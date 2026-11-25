@@ -1,0 +1,75 @@
+/* ==========================================================================
+   FinTrack Design System Tokens
+   Baseado na identidade visual oficial:
+   - Roxo Profundo: #2D0B6B
+   - Roxo Tech:     #7A3FF2
+   - Amarelo Ouro:  #F4B400
+   - Lavanda Claro: #E9E3FF
+   - Cinza Suave:   #F5F7FA
+   ========================================================================== */
+
+:root {
+  /* Brand Palette */
+  --color-purple-deep: #2d0b6b;
+  --color-purple-deep-hover: #210751;
+  --color-purple-rich: #3b0f8c;
+  --color-purple-tech: #7a3ff2;
+  --color-purple-tech-hover: #6728e6;
+  --color-purple-tech-active: #571ed0;
+  --color-gold: #f4b400;
+  --color-gold-hover: #dc9f00;
+  --color-gold-soft: #fff7df;
+  --color-lavender: #e9e3ff;
+  --color-lavender-soft: #f4f0ff;
+  --color-gray-soft: #f5f7fa;
+
+  /* Neutrals */
+  --color-white: #ffffff;
+  --color-surface: #ffffff;
+  --color-bg: #f5f7fa;
+  --color-border: #e3e7f0;
+  --color-border-strong: #cdd4e3;
+  --color-text-primary: #1a1730;
+  --color-text-secondary: #5a6275;
+  --color-text-muted: #848da1;
+
+  /* Financial & Status Semantics (WCAG AA) */
+  --color-income: #0d8a55;
+  --color-income-bg: #e8f8f0;
+  --color-expense: #d63a49;
+  --color-expense-bg: #fdecef;
+  --color-warning: #b37400;
+  --color-warning-bg: #fff5d6;
+  --color-info: #2563eb;
+  --color-info-bg: #edf4ff;
+  --color-online: #16a34a;
+
+  /* Typography */
+  --font-display: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Radii */
+  --radius-xs: 6px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 22px;
+  --radius-pill: 9999px;
+
+  /* Shadows */
+  --shadow-xs: 0 1px 2px rgba(45, 11, 107, 0.05);
+  --shadow-sm: 0 4px 12px rgba(45, 11, 107, 0.06);
+  --shadow-md: 0 10px 28px rgba(45, 11, 107, 0.09);
+  --shadow-lg: 0 20px 48px rgba(45, 11, 107, 0.14);
+  --shadow-purple: 0 8px 22px rgba(122, 63, 242, 0.28);
+
+  /* Layout */
+  --sidebar-width: 264px;
+  --header-height: 72px;
+  --bottom-nav-height: 68px;
+
+  /* Transitions */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --transition-fast: 150ms var(--ease-out);
+  --transition-normal: 220ms var(--ease-out);
+}
